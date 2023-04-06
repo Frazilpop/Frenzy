@@ -1,0 +1,177 @@
+.spotify-logo {
+    background: url("images/spotify-logo.svg" ) no-repeat center;
+}
+.spotify-logo:hover {
+    background: url("images/spotify-logo_hover.svg" ) no-repeat center;
+}
+.apple-music-logo {
+    background: url("images/apple-music-logo.svg" ) no-repeat center;
+
+}
+.apple-music-logo:hover {
+    background: url("images/apple-music-logo_hover.svg" ) no-repeat center;
+}
+.bandcamp-logo {
+    background: url("images/bandcamp-logo.svg" ) no-repeat center;
+}
+.bandcamp-logo:hover {
+    background: url("images/bandcamp-logo_hover.svg" ) no-repeat center;
+}
+
+.amazon-logo {
+    background: url("images/amazon-logo.svg" ) no-repeat center;
+}
+.amazon-logo:hover {
+    background: url("images/amazon-logo_hover.svg" ) no-repeat center;
+}
+.deezer-logo {
+    background: url("images/deezer-logo.svg" ) no-repeat center;
+}
+.deezer-logo:hover {
+    background: url("images/deezer-logo_hover.svg" ) no-repeat center;
+}
+.youtube-logo {
+    background: url("images/youtube-logo.svg" ) no-repeat center;
+}
+.youtube-logo:hover {
+    background: url("images/youtube-logo_hover.svg" ) no-repeat center;
+}
+.tidal-logo {
+    background: url("images/tidal-logo.svg" ) no-repeat center;
+}
+.tidal-logo:hover {
+    background: url("images/tidal-logo_hover.svg" ) no-repeat center;
+}
+
+body:after{
+    position: absolute; overflow: hidden; left: -50000px;
+    content: url("images/spotify-logo_hover.svg") url("images/apple-music-logo_hover.svg" ) url("images/bandcamp-logo_hover.svg" )  url("images/amazon-logo_hover.svg") url("images/deezer-logo_hover.svg" ) url("images/youtube-logo_hover.svg" ) url("images/tidal-logo_hover.svg" );
+}
+.s-logo {
+    width:120px;
+    height: 40px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    max-width: 100%;
+}
+.fa-logo-offset {
+    overflow: hidden;
+    overflow-x: hidden !important;
+}
+.padding-footer {
+    padding-bottom: 30px;
+}
+.hidden-item-p {
+    padding-bottom: 22.5px;
+}
+.p-2 {
+    margin-bottom: 50px!important;
+}    
+.padding-release {
+    padding-bottom: 0px;
+}
+
+@media(max-width: 1200px) {
+   
+    .padding-footer {
+        padding-bottom: 0px;
+    }
+
+    .hidden-item-p {
+        padding-bottom: 0px;
+    }
+}
+
+.padding-top-feature {
+    padding-top: 20px;
+}
+
+@media(min-width:480px) {
+
+    .padding-top-feature {
+        padding-top: 25px;
+    }
+
+    
+}
+
+.dsp-logo-feature {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 15px;
+    width: 50%;
+  }
+
+  .dsp-logo-feature-alt-margin-top {
+    margin-top: 7px;
+  }
+
+  .m-logo {
+    width: 168px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+  }
+
+
+  .f-logo {
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+  }
+
+  @media(min-width:400px) {
+
+    .feature-image-400 {
+        max-width: 400px;
+    }
+    .basic-footer {
+        padding: 10px 10px 8px 15px;
+        color: rgba(44, 41, 41, 0.651);
+        font-weight: 200;
+        font-size: .8rem;
+    }
+
+    .listen-on {
+        max-width: 790px;
+        line-height: 1.45rem;
+        font-size: 100%;
+        font-size: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.listen-on {
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+
+.padding-top-release-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden !important;
+}
+.SVG-logo {
+    overflow-x: hidden !important;
+}
+@media(max-width:480px) {
+    .feature-logo-large {
+        max-width: 480px;
+        overflow-x: hidden !important;
+      }
+}
+.small-spacer {
+    padding-top: 15px;
+}
